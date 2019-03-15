@@ -1,0 +1,52 @@
+Queue created.  Empty? true
+How many elements to add to the queue? 4
+Contents of queue q1 (via  print):
+100  200  300  400
+
+Contents of queue q2 after q2 = q1 (via  print):
+100  200  300  400
+
+Queue q2 empty? false
+Front value in q2: 100
+Remove front -- Queue contents: 200  300  400
+Remove front -- Queue contents: 300  400
+Remove front -- Queue contents: 400
+Remove front -- Queue contents:
+Queue q2 empty? true
+Front value in q2?
+0
+Trying to remove front of q2:
+*** Queue is empty -- can't remove a value ***
+q1:     100  200  300  400
+
+How many elements to add to the queue q2? 9
+q2:     50  100  150  200  250  300  350  400  450
+
+What number do you want to move in front of the queue q1? q1: 100  200  300  400
+100
+
+Contents of q1 before move_to_front (the number is 100) :
+100  200  300  400
+
+Contents of q1 after move_to_front (the number is 100) :
+100  200  300  400
+
+What number do you want to move in front of the queue q2? q2: 50  100  150  200  250  300  350  400  450
+150
+
+Contents of q2 before move_to_front (the number is 150) :
+50  100  150  200  250  300  350  400  450
+
+Contents of q2 after move_to_front (the number is 150) :
+150  50  100  200  250  300  350  400  450
+
+Sorting q1 back to original:
+100  200  300  400
+
+Sorting q2 back to original:
+50  100  150  200  250  300  350  400  450
+
+Contents of q1 after merge_two_queues:
+50  100  100  150  200  200  250  300  300  350  400  400  450
+
+Queue q2 empty after merge_two_queues? true

@@ -1,0 +1,139 @@
+Enter :
+Time for a plane to land (in minutes): 1
+Time for a plane to takeOff (in minutes) : 2
+Landing rate (planes per hour) : 4
+TakeOff rate (planes per hour) : 3
+How long to run the simulation (in minutes) : 10
+
+Time: 1
+
+Plane 1001 wants to takeoff; added to takeoff queue: 1 in queue
+Taking off Flight: 1001
+
+Time: 2
+
+Plane 1001 wants to land; added to landing queue: 1 in queue
+
+Plane 1001 wants to takeoff; added to takeoff queue: 1 in queue
+
+Time: 3
+
+Plane 1002 wants to land; added to landing queue: 1 in queue
+
+Plane 1002 wants to takeoff; added to takeoff queue: 1 in queue
+TakeOff complete; 1 in queue
+
+Time: 4
+
+Plane 1002 wants to land; added to landing queue: 2 in queue
+
+Plane 1002 wants to takeoff; added to takeoff queue: 2 in queue
+
+
+***Due to some technical issues, the Runway 2 has been shut down temporarily***
+***All flights leaving from or coming to Runway 2 have been moved to Runway 1***
+Total Number of Flights Now Leaving Runway 1 is: 3
+Total Number of Flights Now Arriving Runway 1 is: 3
+Is Runway 2 Free: true
+Landing Flight: 1001
+
+Time: 5
+
+Plane 1003 wants to land; added to landing queue: 3 in queue
+
+***The flight 1002 needs to land immediately due to an emergency!***
+Landing complete; 3 in queue
+
+Time: 6
+
+Plane 1003 wants to land; added to landing queue: 3 in queue
+
+Plane 1003 wants to takeoff; added to takeoff queue: 3 in queue
+Landing Flight: 1002
+
+Time: 7
+
+Plane 1004 wants to takeoff; added to takeoff queue: 4 in queue
+Landing complete; 2 in queue
+
+Time: 8
+
+Plane 1004 wants to land; added to landing queue: 4 in queue
+
+Plane 1004 wants to takeoff; added to takeoff queue: 4 in queue
+Landing Flight: 1003
+
+Time: 9
+
+Plane 1005 wants to land; added to landing queue: 2 in queue
+
+Plane 1005 wants to takeoff; added to takeoff queue: 5 in queue
+Landing complete; 2 in queue
+
+Time: 10
+
+Plane 1005 wants to land; added to landing queue: 5 in queue
+
+Plane 1005 wants to takeoff; added to takeoff queue: 5 in queue
+Landing Flight: 1005
+
+No new landings or takeoffs will be generated!
+
+Time: 11
+Landing complete; 1 in queue
+
+Time: 12
+Landing Flight: 0
+*** Queue is empty -- can't remove a value ***
+
+Time: 13
+Landing complete; 0 in queue
+
+Time: 14
+Taking off Flight: 1001
+
+Time: 15
+
+Time: 16
+TakeOff complete; 4 in queue
+
+Time: 17
+Taking off Flight: 1002
+
+Time: 18
+
+Time: 19
+TakeOff complete; 3 in queue
+
+Time: 20
+Taking off Flight: 1004
+
+Time: 21
+
+Time: 22
+TakeOff complete; 2 in queue
+
+Time: 23
+Taking off Flight: 1005
+
+Time: 24
+
+Time: 25
+TakeOff complete; 1 in queue
+
+Time: 26
+Taking off Flight: 0
+*** Queue is empty -- can't remove a value ***
+
+Time: 27
+
+Time: 28
+TakeOff complete; 0 in queue
+
+STATISTICS
+
+Maximum number of planes in landing queue was: 5
+Average minutes spent waiting to land: 5.8
+Maximum number of planes in takeoff queue was: 6
+Average minutes spent waiting to takeoff: 4.83333
+End of program.
